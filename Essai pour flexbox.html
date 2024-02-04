@@ -1,0 +1,210 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    .box {
+        display: flex;
+    }
+
+    .imagefond {
+        background-image: url(fond-section-1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: auto;
+        height: 100vh;
+        max-height: 100%;
+
+    }
+
+    .droite {
+        margin-left: auto;
+    }
+
+    .gauche {
+        margin-right: auto;
+    }
+
+    .groscarac {
+        font-size: 300%;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .groscarac2{
+        font-size:  size 150px;
+    }
+
+    .alignementvert {
+        align-items: stretch;
+    }
+
+    .eloignement {
+        padding: 30px;
+
+    }
+
+    .eloignementgauche {
+        padding-left: 30px;
+    }
+
+    .eloignementhaut {
+        padding-top: 10px;
+    }
+
+    .boxvide {
+        flex-shrink: 0;
+        height: 80px;
+    }
+    .grosseboxvide{
+        flex-shrink: 0;
+        height: 120px;
+    }
+    .petitcarac{
+        font-size: 60%;
+        font-weight: bold;
+
+    }
+    
+    
+    
+</style>
+
+
+<body>
+    <div class="imagefond">
+        <header class="container">
+
+            <div class="box">
+                <div class="col-md-3 "><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                        fill="currentColor" class="bi bi-book gauche  " viewBox="0 0 16 16">
+                        <path
+                            d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                    </svg></div>
+                <div class="col-md-3 eloignementgauche"> <a aria-current="page" class="active" href="/fr"><img
+                            alt="Accueil Uber Eats" role="img"
+                            src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/97c43f8974e6c876.svg" width="146"
+                            height="24" class="cq cr cj cs droite" /></a></div>
+
+                <button type="button" class="btn btn-dark rounded pill droite  col-md-2" width="15">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                    </svg>
+                    Connexion
+
+                </button>
+                <button class="btn btn-light rounded-pill px-3" type="button"
+                    src="https://auth.uber.com/v2/?breeze_local_zone=dca22&next_url=https%3A%2F%2Fwww.ubereats.com%2Flogin-redirect%2F%3Fapp_clip%3Dfalse%26campaign%3Dsignin_universal_link%26guest_mode%3Dfalse%26marketing_vistor_id%3Dfaaefa62-a529-4e7b-ae3f-06b76616c9c4%26redirect%3D%252Ffr&state=Vx3HdCaIP51r8UtPppids8V4Sf9dHyD9vwGwU8OMMDo%3D&x-uber-did=eb05e784-b5c8-41e8-889f-c7a7c54bbcae">
+                    <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                    </svg>Inscription<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z" />
+                    </svg>
+                </button>
+
+
+            </div>
+
+        </header>
+
+        <div class="grosseboxvide"></div>
+        <div class="box groscarac">Vos restos locaux livrés
+            chez vous </div>
+        <div class="grosseboxvide"></div>
+        <div class=" flex-nowrap box eloignement container">
+            <span class="input-group-text" id="addon-wrapping"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                    height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                </svg></span>
+            <input type="text" class="form-control" placeholder="Saisissez l'adresse de livraison" aria-label="Username"
+                aria-describedby="addon-wrapping">
+
+
+            <div class="eloignementgauche box ">
+
+                <button type="button" class="btn btn-light btn-lg box container">
+                    <div class="col-md-3"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                            fill="currentColor" class="bi bi-clock-fill eloignementhaut" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                        </svg></div>
+                    <div class="col-md-6 box petitcarac">Livrer maintenant</div>
+                </button>
+
+
+            </div>
+            <div class="eloignementgauche box ">
+
+                <button type="button" class="btn btn-light btn-lg box container">
+                    <div class="col-md-3"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                            fill="currentColor" class="bi bi-clock-fill eloignementhaut" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                        </svg></div>
+                    <div class="col-md-6 petitcarac">Trouver un restaurant</div>
+                </button>
+
+
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+    </div>
+    <div class="boxvide"></div>
+    <div class="container box">
+        <div class="col-md-4 col-lg-4 col-sm-3">
+            <img src="ajoutez-votre-restaurant.jpg" alt="..." width="300" class="changmtTaille">
+           <div class="groscarac2">Aidez vos collaborateurs <br>à se restaurer </div>
+        </div>
+        <div class="col-md-4 col-lg-4 col-sm-3">
+            <img src="devenez-coursier-partenaire.jpg" alt="..." width="300"> </div>
+        <div class ="col-md-4 col-lg-4 col-sm-3">
+            <img src="creez-un-compte-professionnel.jpg" alt="..." width="300"></div>
+        </div>
+
+    </div>
+    <footer>
+
+        
+    </footer>
+    <!-- <div id="carouselubereats" class="container-md ">
+        <div id="carouselExample" class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="ajoutez-votre-restaurant.jpg" class="d-block w-100" alt="..."
+                        title="Ajoutez votre restaurant">
+                </div>
+                <div class="carousel-item">
+                    <img src="devenez-coursier-partenaire.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="creez-un-compte-professionnel.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-Scontrol-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
